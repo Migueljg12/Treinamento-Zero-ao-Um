@@ -4,7 +4,7 @@ Algoritmo "Data"
 var
 
 idade, dia, mes, ano, anoAtual, diaAtual, mesAtual : inteiro
-quantidadeDeAno, quantidadeDeMes, quantidadeDeDia :real
+quantidadeDeMes, quantidadeDeDia :real
 
 Inicio
 
@@ -23,8 +23,8 @@ Escreval (" qual o ano atual?(todos os 4 digitos) ")
 
 quantidadeDeMes <- mesAtual - mes
 quantidadeDeDia <- dia - diaAtual
-quantidadeDeAno <- anoAtual - ano
+idade <- anoAtual - ano
 
-EscrevaL (" Faltam  ",  quantidadeDeMes , " meses " , quantidadeDeDia , " dias para completar " , quantidadeDeAno, " anos")
+EscrevaL (" Faltam  ",  quantidadeDeMes , " meses " , quantidadeDeDia , " dias para completar " , idade, " anos")
 
 Fimalgoritmo
